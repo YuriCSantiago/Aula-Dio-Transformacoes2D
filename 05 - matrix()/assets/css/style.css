@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(247, 247, 247);
+
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    background: linear-gradient(90deg, #FC4668 0%, #3F5EFB 100%);
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+}
+
+.box:hover {
+    /*
+    matrix(
+        scaleX(),
+        skewY(),
+        skewX(),
+        scaleY(),
+        translateX(),
+        translateY()
+    );
+    */
+
+    transform: matrix(1.2, 0.3, 0, 1.2, 50, 50);
+    /* Site de gera isso - angrytools.com/css-generator/transform */
+}
